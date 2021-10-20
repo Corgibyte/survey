@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+  
+</head>
+<body>
+  <h2>Personality Quiz</h2>
+  <div class="container">
+    <!-- //name
+    //dob
+    //gender
+    //email with checkmark -->
+    <form id="formOne">
+      <div class="row">
+        <div class="col-md-12">
+          <label for="name">Name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <label for="dob">Date of birth:</label>
+          <input id="dob" class="form-control" type="date">
+        </div>
+
+        <div class="col-md-6">
+          <label for="gender">Gender:</label>
+          <select id="gender" class="form-control">        
+            <option>Male</option>
+            <option>Female</option>
+            <option>Non-binary</option>
+            <option>Transgender</option>
+            <option>Prefer not to say</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <label for="email">Email:</label>
+          <input id="email" class="form-control" type="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>How likely are you to do this thing?</h5>
+          <div class="radio">
+            <label><input type="radio" name="survey1" value="1" checked>Not very likely</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="survey1" value="2">Neutral</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="survey1" value="3">Very likely</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>How likely are you to do that thing?</h5>
+          <div class="radio">
+            <label><input type="radio" name="survey2" value="1" checked>Not very likely</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="survey2" value="2">Neutral</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="survey2" value="3">Very likely</label>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>How likely are you to do some other thing?</h5>
+          <div class="radio">
+            <label><input type="radio" name="survey3" value="1" checked>Not very likely</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="survey3" value="2">Neutral</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="survey3" value="3">Very likely</label>
+          </div>
+        </div>
+      </div>     
+          
+    </form>  
+  </div>
+
+</body>
+</html>
